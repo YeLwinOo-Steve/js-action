@@ -26810,7 +26810,7 @@ const core = __nccwpck_require__(9207)
 
 const firstGreeting = core.getInput('first-greet');
 const secondGreeting = core.getInput('second-greet');
-const lastGreet = core.getIput('last-greet');
+const lastGreet = core.getInput('last-greet');
 
 async function run(){
   try{
