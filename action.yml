@@ -5,7 +5,7 @@ inputs:
   first-greet:
     description: "Who is the first one to greet?"
     required: true
-    default: "Ye"
+    default: "world"
   second-greet:
     description: "Name another one to greet"
     required: true
@@ -17,4 +17,4 @@ outputs:
     description: " is the last person to make greeting!"
 runs:
   using: "node20"
-  main: "index.js"
+  main: 'dist/index.js'
