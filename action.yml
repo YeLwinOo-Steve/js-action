@@ -1,0 +1,20 @@
+name: "Greeting action"
+description: "Simple greeting message"
+
+inputs:
+  first-greet:
+    description: "Who is the first one to greet?"
+    required: true
+    default: "Ye"
+  second-greet:
+    description: "Name another one to greet"
+    required: true
+    default: "Yoh"
+  last-greet:
+    description: "The last person to greet"
+outputs:
+  last-greet:
+    description: " is the last person to make greeting!"
+runs:
+  using: "node20"
+  main: "index.js"
